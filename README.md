@@ -34,13 +34,13 @@ This lab demonstrates how Network Security Groups (NSGs) control traffic between
 
 <h2>Actions and Observations</h2>
 <img width="1366" height="737" alt="Capture" src="https://github.com/user-attachments/assets/8747be02-9fd0-4590-bb7f-a6ad2d16027f" />
-
+Azure Virtual Machine 
 
 
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+An Azure Resource Group was created to organize all lab resources. Within this resource group, both Linux and Windows Virtual Machines were deployed to support the environment. Secure access to the Windows Virtual Machine was established using Remote Desktop Protocol (RDP). After connecting to the VM, Wireshark was installed to enable network traffic analysis and packet inspection.
 </p>
 <br />
 
