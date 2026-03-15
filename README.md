@@ -44,6 +44,8 @@ Azure Virtual Machine
 </p>
 <p>
 An Azure Resource Group was created. Within this resource group, both Linux and Windows Virtual Machines were deployed to support the environment. Secure access to the Windows Virtual Machine was established using Remote Desktop. After connecting to the VM, Wireshark was installed to enable network traffic analysis and packet inspection.
+
+To analyze network connectivity between virtual machines, I used Wireshark to capture and filter network protocols between a Windows VM and a Linux VM. From the Windows machine, I initiated an ICMP ping test using PowerShell targeting the Linux VM’s private IP address. The packet capture in Wireshark allowed me to inspect the ICMP request and reply traffic, validating connectivity and demonstrating how packet-level analysis can be used for network troubleshooting and security monitoring.
 </p>
 <br />
 
