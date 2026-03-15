@@ -49,6 +49,7 @@ To further analyze network behavior, I modified the Azure Network Security Group
 
 <img width="1345" height="683" alt="Capture6" src="https://github.com/user-attachments/assets/f7b5a1da-1a29-444f-9a36-2de0b1d00909" />-
 
+Inspecting firewall behavior in Wireshark.
 
 <img width="1304" height="678" alt="Capture8" src="https://github.com/user-attachments/assets/7d723daa-04c7-4641-bd8a-cc9989fcfee0" />
 
