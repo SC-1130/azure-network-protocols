@@ -50,6 +50,9 @@ To analyze network connectivity between virtual machines, I used Wireshark to ca
 I then refined the packet analysis by filtering for SSH, DNS, and TCP traffic to observe how different protocols appear in packet captures and to better understand network behavior between the virtual machines.
 <img width="1349" height="619" alt="Capture10" src="https://github.com/user-attachments/assets/95b4f57d-eaf8-4b56-b1e2-bf2c4612c5f7" />
 Observed DNS
+<img width="829" height="579" alt="Capture11" src="https://github.com/user-attachments/assets/acd8e326-4279-4125-b7ea-6170c97bf647" />
+Observed TCP
+<img width="1346" height="693" alt="Capture12" src="https://github.com/user-attachments/assets/dce8b6f7-54c2-4442-aa6b-27d1718c6d6e" />
 
 
 
@@ -60,7 +63,6 @@ Observed DNS
 <p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
