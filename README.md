@@ -49,6 +49,11 @@ To analyze network connectivity between virtual machines, I used Wireshark to ca
 
 <img width="1351" height="659" alt="Capture3" src="https://github.com/user-attachments/assets/daeb08b7-4bb9-437f-835f-9746888550f3" />
 
+To further analyze network behavior, I modified the Azure Network Security Group (NSG) by creating an inbound rule that denied ICMP traffic. After applying the rule, I monitored the packet capture in Wireshark to observe how the firewall configuration impacted the network communication between the two virtual machines.
+
+<img width="1345" height="683" alt="Capture6" src="https://github.com/user-attachments/assets/f7b5a1da-1a29-444f-9a36-2de0b1d00909" />
+
+
 I then refined the packet analysis by filtering for SSH, DNS, and TCP traffic to observe how different protocols appear in packet captures and to better understand network behavior between the virtual machines.
 <img width="1349" height="619" alt="Capture10" src="https://github.com/user-attachments/assets/95b4f57d-eaf8-4b56-b1e2-bf2c4612c5f7" />
 
@@ -74,9 +79,9 @@ Observed TCP
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
