@@ -66,7 +66,7 @@ Observed DNS
 Observed TCP
 <img width="1346" height="693" alt="Capture12" src="https://github.com/user-attachments/assets/dce8b6f7-54c2-4442-aa6b-27d1718c6d6e" />
 
-Project Summary
+<h2>Project Summary</h2>
 
 
 This lab simulated network traffic monitoring and firewall rule validation in a cloud environment. Using Wireshark, packet captures were performed between a Windows VM and a Linux VM while generating traffic through an ICMP ping test. Protocol filters (ICMP, SSH, DNS, TCP) were applied to isolate specific network activity.
