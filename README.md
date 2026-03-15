@@ -34,6 +34,8 @@ This lab demonstrates how Network Security Groups (NSGs) control traffic between
 
 <h2>Actions and Observations</h2>
 <img width="1366" height="737" alt="Capture" src="https://github.com/user-attachments/assets/8747be02-9fd0-4590-bb7f-a6ad2d16027f" />
+<img width="1223" height="668" alt="Capture" src="https://github.com/user-attachments/assets/afed6426-a2c8-42ab-b920-0bc198383775" />
+
 Azure Virtual Machine 
 
 
