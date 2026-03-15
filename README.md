@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1> 
 This lab demonstrates how Network Security Groups (NSGs) control traffic between Azure Virtual Machines and how Wireshark can be used to capture and analyze that network communication. The goal is to observe how security rules impact connectivity and packet flow within an Azure virtual network. <br />
 
 
