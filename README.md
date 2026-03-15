@@ -67,7 +67,11 @@ Observed TCP
 <img width="1346" height="693" alt="Capture12" src="https://github.com/user-attachments/assets/dce8b6f7-54c2-4442-aa6b-27d1718c6d6e" />
 
 
+This lab simulated network traffic monitoring and firewall rule validation in a cloud environment. Using Wireshark, packet captures were performed between a Windows VM and a Linux VM while generating traffic through an ICMP ping test. Protocol filters (ICMP, SSH, DNS, TCP) were applied to isolate specific network activity.
 
+An Azure Network Security Group (NSG) rule was then implemented to deny ICMP traffic. Subsequent packet analysis confirmed that ICMP responses were no longer returned, validating the effectiveness of the firewall rule.
+
+This project highlights how packet analysis can be used to monitor network activity and verify the implementation of security controls in cloud infrastructure.
 
 </p>
 <br />
