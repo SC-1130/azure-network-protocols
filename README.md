@@ -47,7 +47,10 @@ To analyze network connectivity between virtual machines, I used Wireshark to ca
 
 To further analyze network behavior, I modified the Azure Network Security Group (NSG) by creating an inbound rule that denied ICMP traffic. After applying the rule, I monitored the packet capture in Wireshark to observe how the firewall configuration impacted the network communication between the two virtual machines.
 
-<img width="1345" height="683" alt="Capture6" src="https://github.com/user-attachments/assets/f7b5a1da-1a29-444f-9a36-2de0b1d00909" />
+<img width="1345" height="683" alt="Capture6" src="https://github.com/user-attachments/assets/f7b5a1da-1a29-444f-9a36-2de0b1d00909" />-
+
+
+<img width="1304" height="678" alt="Capture8" src="https://github.com/user-attachments/assets/7d723daa-04c7-4641-bd8a-cc9989fcfee0" />
 
 
 I then refined the packet analysis by filtering for SSH, DNS, and TCP traffic to observe how different protocols appear in packet captures and to better understand network behavior between the virtual machines.
