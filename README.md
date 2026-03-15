@@ -47,6 +47,11 @@ An Azure Resource Group was created. Within this resource group, both Linux and 
 
 To analyze network connectivity between virtual machines, I used Wireshark to capture and filter network protocols between a Windows VM and a Linux VM. From the Windows machine, I initiated an ICMP ping test using PowerShell targeting the Linux VM’s private IP address. The packet capture in Wireshark allowed me to inspect the ICMP request and reply traffic, validating connectivity and demonstrating how packet-level analysis can be used for network troubleshooting and security monitoring.
 <img width="1351" height="659" alt="Capture3" src="https://github.com/user-attachments/assets/daeb08b7-4bb9-437f-835f-9746888550f3" />
+I then refined the packet analysis by filtering for SSH, DNS, and TCP traffic to observe how different protocols appear in packet captures and to better understand network behavior between the virtual machines.
+<img width="1349" height="619" alt="Capture10" src="https://github.com/user-attachments/assets/95b4f57d-eaf8-4b56-b1e2-bf2c4612c5f7" />
+Observed DNS
+
+
 
 
 </p>
