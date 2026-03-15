@@ -33,10 +33,6 @@ This lab demonstrates how Network Security Groups (NSGs) control traffic between
 - Created inbound rules to allow or deny specific traffic
 
 <h2>Actions and Observations</h2>
-<img width="1366" height="737" alt="Capture" src="https://github.com/user-attachments/assets/8747be02-9fd0-4590-bb7f-a6ad2d16027f" />
-<img width="990" height="637" alt="Capture" src="https://github.com/user-attachments/assets/0c4180c9-8f3b-4ef5-8124-b34abb6fa596" />
-
-
 Azure Virtual Machine 
 
 
@@ -46,6 +42,11 @@ Azure Virtual Machine
 An Azure Resource Group was created. Within this resource group, both Linux and Windows Virtual Machines were deployed to support the environment. Secure access to the Windows Virtual Machine was established using Remote Desktop. After connecting to the VM, Wireshark was installed to enable network traffic analysis and packet inspection.
 
 To analyze network connectivity between virtual machines, I used Wireshark to capture and filter network protocols between a Windows VM and a Linux VM. From the Windows machine, I initiated an ICMP ping test using PowerShell targeting the Linux VM’s private IP address. The packet capture in Wireshark allowed me to inspect the ICMP request and reply traffic, validating connectivity and demonstrating how packet-level analysis can be used for network troubleshooting and security monitoring.
+<img width="1366" height="737" alt="Capture" src="https://github.com/user-attachments/assets/8747be02-9fd0-4590-bb7f-a6ad2d16027f" />
+<img width="990" height="637" alt="Capture" src="https://github.com/user-attachments/assets/0c4180c9-8f3b-4ef5-8124-b34abb6fa596" />
+
+
+
 <img width="1351" height="659" alt="Capture3" src="https://github.com/user-attachments/assets/daeb08b7-4bb9-437f-835f-9746888550f3" />
 I then refined the packet analysis by filtering for SSH, DNS, and TCP traffic to observe how different protocols appear in packet captures and to better understand network behavior between the virtual machines.
 <img width="1349" height="619" alt="Capture10" src="https://github.com/user-attachments/assets/95b4f57d-eaf8-4b56-b1e2-bf2c4612c5f7" />
