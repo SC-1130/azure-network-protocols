@@ -6,10 +6,6 @@
 This lab demonstrates how Network Security Groups (NSGs) control traffic between Azure Virtual Machines and how Wireshark can be used to capture and analyze that network communication. The goal is to observe how security rules impact connectivity and packet flow within an Azure virtual network. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
